@@ -46,3 +46,15 @@ public class Warcaby extends JFrame implements MouseListener
         addMouseListener(this);
        
     }
+public static void main(String[] args) 
+    {
+       Warcaby warcaby= new Warcaby();
+       warcaby.setVisible(true);
+       warcaby.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+    
+    
+    public void paint(Graphics g)
+    {
+        rysujPlansze(g);
+    }
