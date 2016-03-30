@@ -58,3 +58,13 @@ public static void main(String[] args)
     {
         rysujPlansze(g);
     }
+    
+public void rysujLinie(Graphics2D g2)
+    {
+        for(int j=0; j<9; j++)
+            {
+                g2.setColor(Color.red);
+                g2.fillRect(50, 50, 407, 407);
+            }
+        
+    }
