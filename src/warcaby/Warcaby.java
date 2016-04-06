@@ -68,3 +68,16 @@ public void rysujLinie(Graphics2D g2)
             }
         
     }
+public void rysujPlansze(Graphics g)
+    {
+        Image img= createImage(getSize().width, getSize().height);
+        Graphics2D g2= (Graphics2D)img.getGraphics();
+        rysujLinie(g2);
+        
+        for(int i=0;i<8;i++)
+        {
+            for(int j=0; j<8;j++)
+            {
+                
+                switch(plansza[i][j])
+                {
