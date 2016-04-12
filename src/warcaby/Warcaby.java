@@ -81,3 +81,6 @@ public void rysujPlansze(Graphics g)
                 
                 switch(plansza[i][j])
                 {
+                    
+               switch(plansza[i][j])
+                {
