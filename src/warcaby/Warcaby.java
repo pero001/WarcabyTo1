@@ -98,3 +98,14 @@ public void rysujPlansze(Graphics g)
                             g2.setColor(Color.pink);
                        if(planszaT[i][j]==3)
                             g2.setColor(Color.yellow); 
+                
+                 g2.fillRect(j+50+j*50, i+50+i*50, 50, 50);
+                        break;  
+                    case 2:
+                        g2.setColor(Color.black);
+                        g2.fillRect(j+50+j*50, i+50+i*50, 50, 50);
+                        g2.setColor(Color.red);
+                        
+                         if(planszaT[i][j]==1)
+                            g2.setColor(Color.pink);
+                       
